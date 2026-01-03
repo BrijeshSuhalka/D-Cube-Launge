@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D Cube Lounge Club & Restaurant | Udaipur</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="D Cube Lounge Club & Restaurant, Sec 8 Circle Hiran Magri Udaipur. Eat Drink Dance & Repeat.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{
+      font-family:'Poppins',sans-serif;
+      background:#0b0b0b;
+      color:#f5f5f5;
+      line-height:1.6;
+    }
+    a{text-decoration:none;color:inherit}
+    nav{
+      position:fixed;top:0;width:100%;
+      background:#000;
+      padding:15px 8%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      border-bottom:1px solid #222;
+      z-index:1000;
+    }
+    nav strong{
+      font-family:'Playfair Display',serif;
+      color:#d4af37;
+      letter-spacing:2px;
+    }
+    nav a{margin-left:20px;font-size:14px}
+    header{
+      height:100vh;
+      background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.85));
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+      margin-top:70px;
+    }
+    header h1{
+      font-family:'Playfair Display',serif;
+      font-size:3rem;
+      color:#d4af37;
+    }
+    header p{
+      margin-top:15px;
+      letter-spacing:3px;
+      color:#ddd;
+    }
+    section{padding:80px 10%}
+    .section-title{
+      text-align:center;
+      font-family:'Playfair Display',serif;
+      font-size:2.4rem;
+      color:#d4af37;
+      margin-bottom:40px;
+    }
+    .menu-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:30px;
+    }
+    .menu-card{
+      background:#111;
+      border:1px solid #222;
+      padding:25px;
+    }
+    .menu-card h3{
+      color:#d4af37;
+      margin-bottom:15px;
+    }
+    .menu-card p{
+      margin-bottom:6px;
+      font-size:14px;
+      color:#ccc;
+    }
+    footer{
+      background:#000;
+      padding:50px 10%;
+      text-align:center;
+      color:#aaa;
+    }
+    footer h3{color:#d4af37}
+    .wa{
+      position:fixed;
+      bottom:25px;
+      right:25px;
+      background:#25D366;
+      color:#fff;
+      padding:14px 18px;
+      border-radius:50px;
+      font-size:14px;
+      z-index:999;
+    }
+    @media(max-width:768px){
+      header h1{font-size:2.2rem}
+      nav{flex-direction:column;gap:10px}
+    }
+  </style>
+</head>
+
+<body>
+
+<a class="wa" href="https://wa.me/919999999999?text=Hello%20D%20Cube,%20I%20want%20to%20reserve%20a%20table" target="_blank">
+💬 Reserve Table
+</a>
+
+<nav>
+  <strong>D CUBE</strong>
+  <div>
+    <a href="#about">About</a>
+    <a href="#food">Food Menu</a>
+    <a href="#bar">Bar Menu</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <div>
+    <h1>D Cube Lounge Club & Restaurant</h1>
+    <p>EAT • DRINK • DANCE • REPEAT</p>
+  </div>
+</header>
+
+<section id="about">
+  <h2 class="section-title">About Us</h2>
+  <p style="text-align:center;max-width:900px;margin:auto;color:#ccc">
+    Located at Sec 8 Circle, Hiran Magri, Udaipur, D Cube Lounge Club & Restaurant
+    offers a perfect blend of luxury dining, premium bar experience and vibrant nightlife.
+  </p>
+</section>
+
+<section id="food">
+  <h2 class="section-title">Food Menu</h2>
+  <div class="menu-grid">
+    <div class="menu-card">
+      <h3>Starters</h3>
+      <p>Roasted Papad – ₹20</p>
+      <p>Masala Papad – ₹50</p>
+      <p>Green Salad – ₹80</p>
+      <p>Crispy Corn – ₹120</p>
+      <p>Paneer Chilli – ₹180</p>
+    </div>
+    <div class="menu-card">
+      <h3>Pizzas</h3>
+      <p>Margherita – ₹150 / ₹180</p>
+      <p>Sweet Corn – ₹150 / ₹180</p>
+      <p>Cheese Burst – ₹180</p>
+      <p>D Cube Special – ₹260</p>
+    </div>
+    <div class="menu-card">
+      <h3>Burgers & Sandwich</h3>
+      <p>Aloo Tikki Burger – ₹80</p>
+      <p>Veg Burger – ₹90</p>
+      <p>Veg Sandwich – ₹80</p>
+      <p>Cheese Sandwich – ₹100</p>
+    </div>
+  </div>
+</section>
+
+<section id="bar">
+  <h2 class="section-title">Bar Menu</h2>
+  <div class="menu-grid">
+    <div class="menu-card">
+      <h3>Whisky & Spirits</h3>
+      <p>RC / RS / B7 – from ₹100</p>
+      <p>Blenders / Signature – from ₹150</p>
+      <p>Red Label / Ballantine – from ₹300</p>
+    </div>
+    <div class="menu-card">
+      <h3>Beer</h3>
+      <p>KF / Tuborg – ₹150</p>
+      <p>Bud Magnum / Corona – ₹300+</p>
+    </div>
+    <div class="menu-card">
+      <h3>Mixers</h3>
+      <p>Mineral Water – ₹20</p>
+      <p>Soda – ₹30</p>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <h3>D Cube Lounge Club & Restaurant</h3>
+  <p>Sec 8 Circle, Hiran Magri, Udaipur</p>
+  <p>Call / WhatsApp for Reservations</p>
+  <div style="margin-top:20px">
+    <iframe src="https://www.google.com/maps?q=Sec%208%20Circle%20Hiran%20Magri%20Udaipur&output=embed"
+      width="100%" height="250" style="border:0"></iframe>
+  </div>
+</footer>
+
+</body>
+</html>
